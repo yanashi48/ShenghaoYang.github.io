@@ -8,6 +8,6 @@
 
 - <strong>S. Yang</strong>, H. Zhang, J. Ren, Z. Tang, M. Zhao†, Y. Liu†. Zero-1-to-3DGS: a Single Image to 3D Gaussian by Consistent Multi-view Generation. <strong>IEEE International Conference on Multimedia & Expo (ICME) 2025</strong> [[project]](https://zero123dgs.github.io/)
 
-- <strong>Z. Tang</strong>, <strong>S. Yang</strong>, H. Zhang, M. Zhao. GarmentGS: Point-Cloud Guided Gaussian Splatting for High-Fidelity Non-Watertight 3D Garment Reconstruction. <strong>International Conference on Multimedia Retrieval (ICMR) 2025</strong> [[paper]](https://dl.acm.org/doi/pdf/10.1145/3731715.3733478)
+- Z. Tang, <strong>S. Yang</strong>, H. Zhang, M. Zhao. GarmentGS: Point-Cloud Guided Gaussian Splatting for High-Fidelity Non-Watertight 3D Garment Reconstruction. <strong>International Conference on Multimedia Retrieval (ICMR) 2025</strong> [[paper]](https://dl.acm.org/doi/pdf/10.1145/3731715.3733478)
 
 
