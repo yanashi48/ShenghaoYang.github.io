@@ -6,7 +6,7 @@ I am pursuing an Academic Master's degree at the Mbot Embodied Intelligence Labo
 
 #### Contact
 
-Email: 2242164[at]mail.dhu.edu.cn
+Email: 2242164@mail.dhu.edu.cn
 
 #### Education
 M.E. in Automation Engineering and Technology, Donghua University, 2024—2027\
