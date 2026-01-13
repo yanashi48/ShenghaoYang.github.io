@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
     <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -26,10 +26,10 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css?v=20260113" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+    <link type="text/css" href="static/css/main.css?v=20260113" rel="stylesheet" />
 
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JS (改用CDN，修复导航栏折叠功能) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- For Compatability -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -37,61 +37,58 @@
     <!-- Markdown -->
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
-    <!-- Mathematics -->
+    <!-- Mathematics (删除重复加载，保留兼容性更好的tex-mml-chtml.js) -->
     <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
+                packages: {},             
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: false,     
+                processEnvironments: true, 
+                processRefs: true,         
+                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    
+                tags: 'all',              
+                tagSide: 'right',          
+                tagIndent: '0.8em',        
+                useLabelIds: true,         
+                maxMacros: 10000,          
+                maxBuffer: 5 * 1024,       
+                formatError: (jax, err) => jax.formatError(err)
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
-    <!-- 新增：加载Experience的Markdown内容（如果你的scripts.js未自动加载） -->
+    <!-- 修复：用DOMContentLoaded确保marked.js加载完成，删除冲突的标题设置 -->
     <script>
-        // 页面加载完成后填充Experience内容
-        window.onload = function() {
-            // 1. 填充Experience的Markdown内容
+        document.addEventListener('DOMContentLoaded', function() {
+            // 填充Experience的Markdown内容（替换为最终版内容）
             const experienceMd = `
-From March 2025 to November 2025, I worked in the team led by Professor [**Huaming Wang**](https://wanghmin.github.io/) at [**Style3D**](https://www.style3d.com/), where I was engaged in research related to patch-based 3D garment AIGC algorithms. During this period, I participated in the [**GarmaGeNet**](https://style3d.github.io/garmagenet/) project and constructed **GarmaGeSet**, a large-scale dataset containing over 10,000 professionally designed garments with detailed structural and stylistic annotations. Additionally, I independently completed the R&D of two patents for the automatic arrangement of stitched garment panels onto human body models.
+### Industry Research Experience
+**[Style3D](https://www.style3d.com/)**, Shanghai, China  
+*Research Assistant* | Mar. 2025 – Nov. 2025  
+Supervised by Prof. [**Huamin Wang**](https://wanghmin.github.io/)  
+
+- Engaged in research on **patch-based 3D garment AIGC algorithms**, focusing on the integration of sewing pattern design and 3D garment generation, which laid the technical foundation for the GarmageNet project.
+- Participated in the **GarmageNet** project, a core multimodal generative framework for sewing pattern design and generic garment modeling. The related paper is published in **ACM Transactions on Graphics (TOG)**, SIGGRAPH Asia 2025:  
+  S. Li, R. Liu, C. Liu, Z. Wang, G. He, Y.-L. Li, X. Jin, H. Wang. *GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design and Generic Garment Modeling* [[paper]](https://dl.acm.org/doi/abs/10.1145/3763271) [[project]](https://style3d.github.io/garmagenet/)
+- Constructed **GarmaGeSet**, a large-scale dataset containing over 10,000 professionally designed garments with detailed structural (sewing pattern) and stylistic annotations. This dataset provides critical data support for the training and evaluation of the GarmageNet multimodal generation model.
+- Independently completed R&D of **two patents** for the automatic arrangement of stitched garment panels onto human body models, solving key technical bottlenecks in 3D garment fitting and improving the efficiency of garment digitalization.
 
 #### Academic Research Experience
 From September 2024 to Present, I am a Master's Research Student at the Mbot Embodied Intelligence Laboratory of Donghua University, supervised by Professor [**Mingbo Zhao**](https://mingbozhao.github.io/). My research focuses on 3D garment generation, with a focus on Gaussian splatting and AIGC-based garment reconstruction.
             `;
-            // 用marked解析Markdown并插入到experience-md容器
-            document.getElementById('experience-md').innerHTML = marked.parse(experienceMd);
-
-            // 2. 可选：设置板块标题（如果你的scripts.js未自动设置）
-            document.getElementById('experience-subtitle').innerText = '\uF0B1 RESEARCH EXPERIENCE';
-        };
+            // 确保experience-md容器存在后再解析
+            const experienceContainer = document.getElementById('experience-md');
+            if (experienceContainer && typeof marked !== 'undefined') {
+                experienceContainer.innerHTML = marked.parse(experienceMd);
+            }
+        });
     </script>
 
 </head>
@@ -101,7 +98,6 @@ From September 2024 to Present, I am a Master's Research Student at the Mbot Emb
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -115,7 +111,6 @@ From September 2024 to Present, I am a Master's Research Student at the Mbot Emb
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
-                    <!-- 新增：导航栏Experience入口 -->
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
@@ -132,7 +127,6 @@ From September 2024 to Present, I am a Master's Research Student at the Mbot Emb
             </div>
         </div>
     </section>
-    <!-- Top Section -->
 
     <!-- Photo -->
     <div class="container px-5">
@@ -140,41 +134,36 @@ From September 2024 to Present, I am a Master's Research Student at the Mbot Emb
             <img class="shadow" src="static/assets/img/shenghaoyang.jpg">
         </div>
     </div>
-    <!-- Photo -->
     
     <!-- Home -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> Shenghao Yang | 杨圣豪</h2>
-                <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
-    <!-- Home -->
 
     <!-- Publications -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle">&#xf15c;&nbsp;PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
         </div>
     </section>
-    <!-- Publications  -->
 
-    <!-- 新增：Experience板块（和Publications样式完全一致） -->
+    <!-- Experience （修复图标写法，统一用Unicode） -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="experience">
         <div class="container px-5">
             <header>
-                <h2 id="experience-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;RESEARCH EXPERIENCE</h2>
+                <h2 id="experience-subtitle">&#xf0b1;&nbsp;RESEARCH EXPERIENCE</h2>
             </header>
             <div class="main-body" id="experience-md"></div>
         </div>
     </section>
-    <!-- Experience  -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
