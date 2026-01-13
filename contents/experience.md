@@ -1,13 +1,13 @@
-#### Submitted
+### Industry Research Experience
+**[Style3D](https://www.style3d.com/)**, Shanghai, China  
+*Research Assistant* | Mar. 2025 – Nov. 2025  
+Supervised by Prof. [Huamin Wang](https://wanghmin.github.io/)  
 
-- <strong>S. Yang</strong>, H. Zhang, Z. Tang, Z. Cui, W. Lian, Y. Han, M. Zhao. Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design. <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026 (Under Review)</strong> [[project]](https://fashion-3dlr.github.io/Fashion-3DLR/)
-
-
-
-#### Published
-
-- <strong>S. Yang</strong>, H. Zhang, J. Ren, Z. Tang, M. Zhao†, Y. Liu†. Zero-1-to-3DGS: a Single Image to 3D Gaussian by Consistent Multi-view Generation. <strong>IEEE International Conference on Multimedia & Expo (ICME) 2025</strong> [[project]](https://zero123dgs.github.io/)
-
-- Z. Tang, <strong>S. Yang</strong>, H. Zhang, M. Zhao. GarmentGS: Point-Cloud Guided Gaussian Splatting for High-Fidelity Non-Watertight 3D Garment Reconstruction. <strong>International Conference on Multimedia Retrieval (ICMR) 2025</strong> [[paper]](https://dl.acm.org/doi/pdf/10.1145/3731715.3733478)
-
-
+- Engaged in research on **patch-based 3D garment AIGC algorithms**, focusing on the integration of sewing pattern design and 3D garment generation, which laid the technical foundation for the GarmageNet project.
+- Participated in the [**GarmageNet**](https://dl.acm.org/doi/abs/10.1145/3763271) project, a core multimodal generative framework for sewing pattern design and generic garment modeling. The related paper is published in:  
+  **ACM Transactions on Graphics (TOG)**, SIGGRAPH Asia 2025  
+  Full Title: *GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design and Generic Garment Modeling*  
+  Authors: Siran Li, Ruiyang Liu, Chen Liu, Zhendong Wang, Gaofeng He, Yong-Lu Li, Xiaogang Jin, Huamin Wang  
+  Paper Link: [https://dl.acm.org/doi/abs/10.1145/3763271](https://dl.acm.org/doi/abs/10.1145/3763271)
+- Constructed **GarmaGeSet**, a large-scale dataset containing over 10,000 professionally designed garments with detailed structural (sewing pattern) and stylistic annotations. This dataset provides critical data support for the training and evaluation of the GarmageNet multimodal generation model.
+- Independently completed R&D of **two patents** for the automatic arrangement of stitched garment panels onto human body models, solving key technical bottlenecks in 3D garment fitting and improving the efficiency of garment digitalization.
