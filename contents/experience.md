@@ -1,17 +1,13 @@
-# Research Experience
+#### Submitted
 
-## GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design & Garment Modeling
-- **Related Publication**: Li S et al. (2025). GarmageNet. ACM TOG, 44(6): 1-23.
-- **Project Page**: [https://style3d.github.io/garmagenet/](https://style3d.github.io/garmagenet/)
-- **My Contributions**: Core contributor, responsible for:
-  - Dataset construction (collection, cleaning, annotation & validation)
-  - Model training (framework implementation, parameter tuning)
-  - Experimental evaluation (experiment design, result analysis)
-  - Paper drafting & revision (experimental methods/results description)
-- **Note**: Not listed as an author; made substantial contributions to data preparation, model implementation & paper compilation.
+- <strong>S. Yang</strong>, H. Zhang, Z. Tang, Z. Cui, W. Lian, Y. Han, M. Zhao. Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design. <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026 (Under Review)</strong> [[project]](https://fashion-3dlr.github.io/Fashion-3DLR/)
 
-# （可选）其他项目经历
-## 项目名称X
-- **Role**: 你的角色
-- **Contributions**: 核心贡献要点
-- **Status**: 项目状态（如Completed/In Progress）
+
+
+#### Published
+
+- <strong>S. Yang</strong>, H. Zhang, J. Ren, Z. Tang, M. Zhao†, Y. Liu†. Zero-1-to-3DGS: a Single Image to 3D Gaussian by Consistent Multi-view Generation. <strong>IEEE International Conference on Multimedia & Expo (ICME) 2025</strong> [[project]](https://zero123dgs.github.io/)
+
+- Z. Tang, <strong>S. Yang</strong>, H. Zhang, M. Zhao. GarmentGS: Point-Cloud Guided Gaussian Splatting for High-Fidelity Non-Watertight 3D Garment Reconstruction. <strong>International Conference on Multimedia Retrieval (ICMR) 2025</strong> [[paper]](https://dl.acm.org/doi/pdf/10.1145/3731715.3733478)
+
+
