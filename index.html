@@ -75,6 +75,25 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <!-- 新增：加载Experience的Markdown内容（如果你的scripts.js未自动加载） -->
+    <script>
+        // 页面加载完成后填充Experience内容
+        window.onload = function() {
+            // 1. 填充Experience的Markdown内容
+            const experienceMd = `
+From March 2025 to November 2025, I worked in the team led by Professor [**Huaming Wang**](https://wanghmin.github.io/) at [**Style3D**](https://www.style3d.com/), where I was engaged in research related to patch-based 3D garment AIGC algorithms. During this period, I participated in the [**GarmaGeNet**](https://style3d.github.io/garmagenet/) project and constructed **GarmaGeSet**, a large-scale dataset containing over 10,000 professionally designed garments with detailed structural and stylistic annotations. Additionally, I independently completed the R&D of two patents for the automatic arrangement of stitched garment panels onto human body models.
+
+#### Academic Research Experience
+From September 2024 to Present, I am a Master's Research Student at the Mbot Embodied Intelligence Laboratory of Donghua University, supervised by Professor [**Mingbo Zhao**](https://mingbozhao.github.io/). My research focuses on 3D garment generation, with a focus on Gaussian splatting and AIGC-based garment reconstruction.
+            `;
+            // 用marked解析Markdown并插入到experience-md容器
+            document.getElementById('experience-md').innerHTML = marked.parse(experienceMd);
+
+            // 2. 可选：设置板块标题（如果你的scripts.js未自动设置）
+            document.getElementById('experience-subtitle').innerText = '\uF0B1 RESEARCH EXPERIENCE';
+        };
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -96,11 +115,10 @@
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
-                    
+                    <!-- 新增：导航栏Experience入口 -->
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -143,12 +161,11 @@
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-
         </div>
     </section>
     <!-- Publications  -->
 
-        <!-- 新增Experience区域 -->
+    <!-- 新增：Experience板块（和Publications样式完全一致） -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="experience">
         <div class="container px-5">
             <header>
@@ -158,9 +175,6 @@
         </div>
     </section>
     <!-- Experience  -->
-
-
-
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
