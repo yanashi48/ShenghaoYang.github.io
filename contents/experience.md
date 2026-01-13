@@ -1,5 +1,5 @@
 ### Industry Research Experience
-**[Style3D](https://www.style3d.com/)**, Shanghai, China  
+**[Style3D](https://www.style3d.com/)**, Hangzhou, China  
 *Research Assistant* | Mar. 2025 – Nov. 2025  
 Supervised by Prof. [Huamin Wang](https://wanghmin.github.io/)  
 
