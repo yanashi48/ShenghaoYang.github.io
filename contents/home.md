@@ -1,6 +1,6 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![shenghao yang](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/yanashi48)
 
 I am pursuing an Academic Master's degree at the Mbot Embodied Intelligence Laboratory of Donghua University, under the supervision of Professor [**Mingbo Zhao**](https://mingbozhao.github.io/). Prior to this, I graduated from the Department of Automation of Donghua University with an Academic Bachelor's degree. My research focuses on 3D garment generation.
 
