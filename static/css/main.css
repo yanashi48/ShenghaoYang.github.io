@@ -54,6 +54,21 @@ section .main-body{
     line-height: 2.4rem;
 }
 
+section .main-body .pub-video-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+
+section .main-body .pub-video {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    background: #000;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;

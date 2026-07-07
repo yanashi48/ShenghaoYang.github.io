@@ -1,17 +1,17 @@
 
-
 [![shenghao yang](https://img.shields.io/badge/shenghaoyang-github-blue?logo=github)](https://github.com/yanashi48)
 
-I am pursuing an Academic Master's degree at the Mbot Embodied Intelligence Laboratory of Donghua University, under the supervision of Professor [**Mingbo Zhao**](https://mingbozhao.github.io/). Prior to this, I graduated from the Department of Automation of Donghua University with an Academic Bachelor's degree. My research focuses on 3D garment generation.
+I am pursuing an M.Sc. in Control Engineering and Technology at the Mbot Embodied Intelligence Laboratory, Donghua University, under the supervision of Professor [**Mingbo Zhao**](https://mingbozhao.github.io/). I received my B.Eng. in Automation (Excellence Program) from Donghua University. My research focuses on **3D garment generation**, including Gaussian splatting, AIGC-based garment reconstruction, and controllable 3D fashion design.
 
-From March 2025 to November 2025, I worked in the team led by Professor [**Huaming Wang**](https://wanghmin.github.io/) at [**Style3D**](https://www.style3d.com/), where I was engaged in research related to patch-based 3D garment AIGC algorithms. During this period, I participated in the [**GarmageNet**](https://style3d.github.io/garmagenet/) project and constructed **GarmageSet**, a large-scale dataset containing over 10,000 professionally designed garments with detailed structural and stylistic annotations. Additionally, I independently completed the R&D of two patents for the automatic arrangement of stitched garment panels onto human body models.
+From March 2025 to November 2025, I worked as a **3D AIGC Algorithm Research Intern** at [**Style3D**](https://www.style3d.com/) (Zhejiang Lingdi Digital Technology Co., Ltd.), in the team led by Professor [**Huamin Wang**](https://wanghmin.github.io/). I contributed to the [**GarmageNet**](https://style3d.github.io/garmagenet/) project (SIGGRAPH Asia 2025), built **GarmageSet** with **14,801** professionally designed 3D garment assets, and independently developed an automatic garment panel layout algorithm integrated into Style3D Studio (two national patents filed).
+
 #### Contact
 
-Email: 2242164@mail.dhu.edu.cn
+Email: [597082333@qq.com](mailto:597082333@qq.com) | [2242164@mail.dhu.edu.cn](mailto:2242164@mail.dhu.edu.cn)
 
 #### Education
-M.E. in Automation Engineering and Technology, Donghua University, 2024—2027\
-B.E. in Automation, Donghua University, 2020—2024
 
+M.Sc. in Control Engineering and Technology, Donghua University, 2024—2027 (expected)\
+B.Eng. in Automation (Excellence Program), Donghua University, 2020—2024
 
 

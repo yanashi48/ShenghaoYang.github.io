@@ -1,13 +1,8 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- National Second Prize, China Undergraduate Mathematical Contest in Modeling
 
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
+- National Second Prize, China Robot and AI Competition
 
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
+- National Scholarship for Graduate Students (Ministry of Education, China), 2024
 
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
-
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
-
+- Additional: 2 international awards, 2 national awards, 9 provincial awards, and 6 university-level awards
