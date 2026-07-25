@@ -1,6 +1,6 @@
 #### Submitted
 
-- <strong>S. Yang</strong>, H. Zhang, Z. Tang, Z. Cui, W. Lian, Y. Han, M. Zhao. Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design. <strong>ACM International Conference on Multimedia (ACM MM) 2026 (Under Review)</strong>; initial review scores: 5, 4, 3, 3, 1 [[project]](https://fashion-3dlr.github.io/Fashion-3DLR/)
+- <strong>S. Yang</strong>, H. Zhang, Z. Tang, Z. Cui, W. Lian, Y. Han, M. Zhao. Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design. <strong>AAAI Conference on Artificial Intelligence (AAAI) 2027 (Under Review)</strong> [[project]](https://fashion-3dlr.github.io/Fashion-3DLR/)
 
 #### Published
 
