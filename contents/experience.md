@@ -8,7 +8,7 @@ Supervised by Prof. [Huamin Wang](https://wanghmin.github.io/)
 - Participated in the **GarmageNet** project, a multimodal generative framework for sewing pattern design and generic garment modeling. The related paper is published in **ACM Transactions on Graphics (TOG)**, SIGGRAPH Asia 2025:  
   S. Li, R. Liu, C. Liu, Z. Wang, G. He, Y.-L. Li, X. Jin, H. Wang. *GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design and Generic Garment Modeling* [[paper]](https://dl.acm.org/doi/abs/10.1145/3763271) [[project]](https://style3d.github.io/garmagenet/)
 - Constructed **GarmageSet**, a large-scale dataset of **14,801** 3D garment assets with detailed structural (sewing pattern) and stylistic annotations; defined **Garmage** data standards and component-level automatic semantic annotation pipelines.
-- Independently developed an automatic 3D garment panel layout algorithm (lightweight GNN, ~2.31M parameters, 3 ms inference); filed **two national patents** and integrated the technology into **Style3D Studio**.
+- Proposed and led the **AI Sew & Arrange** project, which represents garment designs as graph structures and employs a **GAT**-based network for automatic sewing and panel arrangement; served as the core code implementer of the algorithm. The related work is available on **arXiv** (2026): [[paper]](https://arxiv.org/abs/2607.21213)
 
 ### Academic Research Experience
 

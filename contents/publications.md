@@ -11,8 +11,17 @@
 - S. Li, R. Liu, C. Liu, Z. Wang, G. He, Y.-L. Li, X. Jin, H. Wang. GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design and Generic Garment Modeling. <strong>ACM Transactions on Graphics (TOG), SIGGRAPH Asia 2025</strong> [[paper]](https://dl.acm.org/doi/abs/10.1145/3763271) [[project]](https://style3d.github.io/garmagenet/) *(Contributor)*
 
 <div class="pub-video-container">
-  <video class="pub-video" controls playsinline preload="metadata">
+  <video class="pub-video" autoplay loop muted controls playsinline preload="metadata">
     <source src="static/assets/GarmageNet_demo_video_editing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+- Z. Wang, J. Wang, C. Liu, Y. Jin, L. Liu, H. Wang. Learning-based Seam Correspondence Reconstruction in Sewing Patterns. <strong>arXiv preprint, 2026</strong> [[paper]](https://arxiv.org/abs/2607.21213) *(Contributor)*
+
+<div class="pub-video-container">
+  <video class="pub-video" autoplay loop muted controls playsinline preload="metadata">
+    <source src="static/assets/arrange.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
